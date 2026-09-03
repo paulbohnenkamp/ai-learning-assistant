@@ -1,9 +1,8 @@
 # DevCoach AI
 
-DevCoach AI is a small, runnable sample of the business chatbot described in
-the recruiter email: an AI learning assistant for software-development learners
-and trainers. It uses a React frontend, a Spring Boot microservice, and Spring AI
-for the optional external model path.
+DevCoach AI is a small, runnable AI learning assistant for software-development
+learners and trainers. It uses a React frontend, a Spring Boot microservice, and
+Spring AI for the optional external model path.
 
 ![DevCoach AI chat interface](docs/app-screenshot.png)
 

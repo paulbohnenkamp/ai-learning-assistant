@@ -9,8 +9,8 @@ result: results/001-learning-assistant-demo.md
 
 ## Goal
 
-Create a simple runnable business chatbot demonstrating the learner and trainer
-experience described in the Full stack AI Architect job description.
+Create a simple runnable business chatbot demonstrating a focused learner and
+trainer experience for software-development practice.
 
 ## Non-goals
 
