@@ -58,7 +58,7 @@ export default function HomePage() {
         </div>
         <div className="suggestions">{starterPrompts.map((prompt) => <button key={prompt} onClick={() => setDraft(prompt)}>{prompt} <span>↗</span></button>)}</div>
         <form className="composer" onSubmit={sendMessage}><input value={draft} onChange={(event) => setDraft(event.target.value)} placeholder="Ask about your learning path…" aria-label="Message DevCoach AI" /><button type="submit" disabled={isSending || !draft.trim()} aria-label="Send message">↑</button></form>
-        <div className="privacy-note">Local demo mode · no API key required · responses are deterministic</div>
+        <div className="privacy-note">Server-side model · key stays private · Markdown responses</div>
       </section>
     </main>
   );
