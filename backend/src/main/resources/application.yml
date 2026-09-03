@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+chat:
+  mode: ${CHAT_MODE:local}
+
+spring:
+  config:
+    import: optional:file:../.env[.properties]
+  application:
+    name: learning-assistant-service
+  ai:
+    openai:
+      api-key: ${MODEL_KEY:}
+      chat:
+        options:
+          model: ${MODEL:gpt-5.6-luna}
